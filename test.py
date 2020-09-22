@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import unittest
 
+
 class TestSum(unittest.TestCase):
     def test_list_int(self):
         """
@@ -9,6 +10,7 @@ class TestSum(unittest.TestCase):
         data1 = 1
         data2 = 1
         self.assertEqual(data1, data2)
+
 
 if __name__ == '__main__':
     unittest.main()
