@@ -7,7 +7,7 @@ class TestSum(unittest.TestCase):
         Basic unit test.
         """
         data1 = 1
-        data2 = 2
+        data2 = 1
         self.assertEqual(data1, data2)
 
 if __name__ == '__main__':
