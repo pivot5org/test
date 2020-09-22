@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
+import unittest
 
-def main():
-    print("This is a test")
+class TestSum(unittest.TestCase):
+    def test_list_int(self):
+        """
+        Basic unit test.
+        """
+        data1 = 1
+        data2 = 1
+        self.assertEqual(data1, data2)
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    unittest.main()
